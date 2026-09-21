@@ -37,37 +37,30 @@ Para trabajar durante el curso instalé Visual Studio Code como entorno de desar
 
 Abre la terminal, ve a la carpeta donde quieras guardarlo y escribe:
 
-bash
-git clone https://github.com/usuario/nombre-repo.git
+git clone https://github.com/ashleyruelas5083/ashley-ruelas-programacion-1
 Eso crea una carpeta con el proyecto dentro.
 
 2. Entra al proyecto
 
-bash
 cd nombre-repo
 3. Instala dependencias (si tiene)
 
 Si hay package.json:
 
-bash
 npm install
 Si hay requirements.txt:
 
-bash
 pip install -r requirements.txt
 4. Ejecuta el proyecto
 
 Depende del repo. Busca en el README.md las instrucciones. Suele ser algo como:
 
-bash
 npm start
 o
 
-bash
 python main.py
 5. Para trabajar y subir cambios
 
-bash
 git checkout -b mi-rama        # crea tu rama
 git add .                      # prepara cambios
 git commit -m "mi cambio"      # guarda cambios
@@ -76,5 +69,4 @@ Luego entras a GitHub y creas un Pull Request.
 
 6. Para traer cambios nuevos del repo original
 
-bash
 git pull origin main
